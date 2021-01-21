@@ -1,0 +1,173 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--color2: #F4F4F4;
+}
+
+body {
+	margin: 0;
+	font-family: Arial;
+	line-height: 1.5;
+}
+
+div.cover {
+	background: url(../Img/cover_overlay.png) no-repeat center/100%,url(../Img/cover.jpg) no-repeat center/cover;
+	height: 360px;
+	position: relative;
+}
+
+img.user_profile {
+	height:100px;
+	position: relative;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: 50px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 42px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+div.cover p {
+	color: lightgray;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+
+.contact {
+	/*background-color: red;*/
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border-left: 2px solid #FFD2AD;
+	padding-left: 8px;
+}
+
+div.contact p:first-child {
+	margin-bottom:14px;
+}
+
+div.contact p {
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.contact * {
+	color: white;
+	font-size: 14px;
+}
+
+a.contact_button {
+	color: #FFD2AD;
+	border: 1px solid #FFD2AD;
+	padding: 8px 20px;
+	text-decoration: none;
+	background-color: #F00000040;
+	margin-top: 20px;
+	display: inline-block;
+	font-size: 14px;
+}
+
+a.contact_button:hover {
+	color: white;
+	border: 1px solid white;
+}
+
+.bloc_contact_button {
+	text-align: center;
+}
+
+div.section {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: auto;
+}
+
+div.section_grise1 {
+	background: url(../Img/triangle2white.svg) no-repeat center bottom/100%;
+	background-color: var(--color2);
+	padding-bottom: 70px;
+}
+
+div.section_grise2 {
+	background: url(../Img/triangle1white.svg) no-repeat center top/100%;
+	background-color: var(--color2);
+	padding-top: 80px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 34px;
+	margin-top: 0px;
+}
+
+div.separateur {
+	background-color: #979797;
+	height: 1px;
+	width: 150px;
+	position: relative;
+	left: 50%;
+	margin-left: -75px;
+}
+
+div.section_grise1 p {
+	font-size: 22px;
+	color: #656565;
+	text-align: center;
+	max-width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col1 {
+	width: 40%;
+}
+
+.col2 {
+	width: 60%;
+}
+
+
+.float_right {
+	float: right;
+}
+
+.padding_box_border {
+	padding-left: 16px;
+}
+
+div.part_en_savoir_plus {
+	margin-top:0;
+	border-left: 4px solid var(--color2);
+}
+
+div.part_en_savoir_plus {
+	border-left: 4px solid var(--color2);
+	padding-left: 8px;
+	height: 50px;
+	display: inline-block;
+}
+
+div.part_en_savoir_plus p{
+	margin-top:0;
+}
+
+.style_table_portfolio {
+	width: 50%;
+}
+
+div.barre_vertical_table {
+	height: 50px;
+	width: 4px;
+	background-color: lightgray;
+}
