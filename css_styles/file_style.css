@@ -130,7 +130,8 @@ div.section_grise1 p {
 }
 
 img.col-contenu {
-	width: 40%;
+	/*width: 40%;*/
+	padding-left: 250px;
 }
 
 div.col-contenu {
