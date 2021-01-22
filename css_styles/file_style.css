@@ -164,10 +164,56 @@ div.part_en_savoir_plus p{
 
 .style_table_portfolio {
 	width: 50%;
+	float: left;
+	display: inline-block;
 }
 
 div.barre_vertical_table {
 	height: 50px;
 	width: 4px;
 	background-color: lightgray;
+	margin-right: 8px;
+}
+
+.img_pizza_portfolio {
+	width: 100%;
+}
+
+.link_restaurant_portfolio {
+	text-align: left;
+}
+
+.style_table2_portfolio {
+	width: 50%;
+	float: right;
+}
+
+div.frame {
+	/*background-color:red;*/
+	width: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 0;
+	margin-left: 25%;
+}
+
+div.frame_barre_vertical_table {
+	height: 50px;
+	width: 4px;
+	background-color: lightgray;
+}
+
+.title_frame {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 12px;
+}
+
+div.float_frame_profil_photo {
+	float: left;
+	display: inline-block;
+	top: 10px;
+}
+
+.frame_table {
+	display:block;
 }
